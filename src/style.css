@@ -145,7 +145,7 @@ button:focus {
 
 @media (max-width: 767px) {
 
-  .home-section {
+  /* .home-section {
     position: relative;
     z-index: -1;
     background-image: var(--image-gradient), url(./Assets/homebg.jpg);
@@ -155,7 +155,7 @@ button:focus {
     padding-bottom: 30px !important;
     padding-top: 30px !important;
     object-fit: contain;
-  }
+  } */
   .navbar {
     padding: 1rem 2rem !important;
     font-size: 1.4rem !important;
@@ -185,7 +185,7 @@ button:focus {
 }
 
 @media (max-width: 767px) {
-  .home-section {
+  /* .home-section {
     position: relative;
     z-index: -1;
     background-image: var(--image-gradient), url(./Assets/homebg.jpg);
@@ -195,7 +195,7 @@ button:focus {
     padding-bottom: 30px !important;
     padding-top: 30px !important;
     object-fit: contain;
-  }
+  } */
   .nav-link {
     padding: 0.7rem 1rem !important;
   }
@@ -281,7 +281,7 @@ button:focus {
   padding-top: 80px !important;
 }
 
-.home-section {
+/* .home-section {
   position: relative;
   z-index: -1;
   background-image: var(--image-gradient), url(./Assets/homebg.jpg);
@@ -291,7 +291,7 @@ button:focus {
   padding-bottom: 170px !important;
   padding-top: 30px !important;
   object-fit: contain;
-}
+} */
 
 
 .home-content {
@@ -333,7 +333,7 @@ color: transparent !important;
 }
 
 @media (max-width: 767px) {
-  .home-section {
+  /* .home-section {
     position: relative;
     z-index: -1;
     background-image: var(--image-gradient), url(./Assets/homebg.jpg);
@@ -343,7 +343,7 @@ color: transparent !important;
     padding-bottom: 30px !important;
     padding-top: 30px !important;
     object-fit: contain;
-  }
+  } */
   .Typewriter__wrapper {
     font-size: 1.4em !important;
     font-weight: 500 !important;
@@ -360,7 +360,7 @@ color: transparent !important;
 }
 
 @media (max-width: 767px) {
-  .home-section {
+  /* .home-section {
     position: relative;
     z-index: -1;
     background-image: var(--image-gradient), url(./Assets/homebg.jpg);
@@ -370,7 +370,7 @@ color: transparent !important;
     padding-bottom: 30px !important;
     padding-top: 30px !important;
     object-fit: contain;
-  }
+  } */
   .myAvtar {
     padding-top: 2em !important;
     padding-bottom: 2em !important;
@@ -477,7 +477,7 @@ color: transparent !important;
 }
 
 @media (max-width: 767px) {
-  .home-section {
+  /* .home-section {
     position: relative;
     z-index: -1;
     background-image: var(--image-gradient), url(./Assets/homebg.jpg);
@@ -487,7 +487,7 @@ color: transparent !important;
     padding-bottom: 30px !important;
     padding-top: 30px !important;
     object-fit: contain;
-  }
+  } */
   .footer-copywright {
     text-align: center !important;
   }
@@ -655,7 +655,7 @@ color: transparent !important;
 }
 
 @media (max-width: 767px) {
-  .home-section {
+  /* .home-section {
     position: relative;
     z-index: -1;
     background-image: var(--image-gradient), url(./Assets/homebg.jpg);
@@ -665,7 +665,7 @@ color: transparent !important;
     padding-bottom: 30px !important;
     padding-top: 30px !important;
     object-fit: contain;
-  }
+  } */
   .tech-icons {
     margin: 10px !important;
   }
@@ -694,7 +694,7 @@ color: transparent !important;
 }
 
 @media (max-width: 767px) {
-  .home-section {
+  /* .home-section {
     position: relative;
     z-index: -1;
     background-image: var(--image-gradient), url(./Assets/homebg.jpg);
@@ -704,7 +704,7 @@ color: transparent !important;
     padding-bottom: 30px !important;
     padding-top: 30px !important;
     object-fit: contain;
-  }
+  } */
   .about-img {
     padding-top: 0 !important;
   }
@@ -736,7 +736,7 @@ color: transparent !important;
 }
 
 @media (max-width: 767px) {
-  .home-section {
+  /* .home-section {
     position: relative;
     z-index: -1;
     background-image: var(--image-gradient), url(./Assets/homebg.jpg);
@@ -746,7 +746,7 @@ color: transparent !important;
     padding-bottom: 30px !important;
     padding-top: 30px !important;
     object-fit: contain;
-  }
+  } */
   .resume-left {
     padding-right: 15px !important;
     padding-left: 15px !important;

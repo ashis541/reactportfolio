@@ -1,21 +1,24 @@
 html {
   --section-background-color: linear-gradient(
     to bottom left,
-    rgba(17, 16, 16, 0.582),
-    rgba(12, 8, 24, 0.904)
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0)
   );
 
   --image-gradient: linear-gradient(
     to bottom left,
-    rgba(17, 16, 16, 0.678),
-    rgba(12, 10, 22, 0.863)
+    rgba(0, 0, 0, 0.678),
+    rgba(0, 0, 0, 0.678)
   );
 
-  --imp-text-color: #c770f0;
+  --imp-text-color: #ce841cd0 !important;
 }
 
 .purple {
-  color: var(--imp-text-color) !important;
+  background: linear-gradient(45deg, #B16CEA, #FF5E69, #FF8A56, #FFA84B) !important;
+background-clip: text !important;
+-webkit-background-clip: text !important;
+color: transparent !important;
 }
 
 button:focus {
@@ -141,6 +144,18 @@ button:focus {
 }
 
 @media (max-width: 767px) {
+
+  .home-section {
+    position: relative;
+    z-index: -1;
+    background-image: var(--image-gradient), url(./Assets/homebg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    padding-bottom: 30px !important;
+    padding-top: 30px !important;
+    object-fit: contain;
+  }
   .navbar {
     padding: 1rem 2rem !important;
     font-size: 1.4rem !important;
@@ -170,6 +185,17 @@ button:focus {
 }
 
 @media (max-width: 767px) {
+  .home-section {
+    position: relative;
+    z-index: -1;
+    background-image: var(--image-gradient), url(./Assets/homebg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    padding-bottom: 30px !important;
+    padding-top: 30px !important;
+    object-fit: contain;
+  }
   .nav-link {
     padding: 0.7rem 1rem !important;
   }
@@ -178,6 +204,7 @@ button:focus {
 .navbar-nav .nav-item {
   position: relative;
   margin-left: 20px;
+  display: contents;
 }
 
 .navbar-nav .nav-item a {
@@ -257,12 +284,15 @@ button:focus {
 .home-section {
   position: relative;
   z-index: -1;
-  background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
-  background-position: top center;
+  background-image: var(--image-gradient), url(./Assets/homebg.jpg);
   background-repeat: no-repeat;
-  padding-bottom: 30px !important;
+  background-size: cover;
+  background-position: top center;
+  padding-bottom: 170px !important;
   padding-top: 30px !important;
+  object-fit: contain;
 }
+
 
 .home-content {
   padding: 9rem 0 2rem !important;
@@ -281,20 +311,39 @@ button:focus {
 }
 
 .main-name {
-  color: #cd5ff8;
+  background: linear-gradient(45deg, #B16CEA, #FF5E69, #FF8A56, #FFA84B);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  
 }
 
 .Typewriter__wrapper {
   font-size: 2.2em !important;
-  color: #be6adf !important;
+  background: linear-gradient(45deg, #B16CEA, #FF5E69, #FF8A56, #FFA84B) !important;
+background-clip: text !important;
+-webkit-background-clip: text !important;
+color: transparent !important;
+
   font-weight: 600 !important;
 }
 .Typewriter__cursor {
   font-size: 2.4em !important;
-  color: #b562d6 !important;
+  background: linear-gradient(45deg, #B16CEA, #FF5E69, #FF8A56, #FFA84B) !important;
 }
 
 @media (max-width: 767px) {
+  .home-section {
+    position: relative;
+    z-index: -1;
+    background-image: var(--image-gradient), url(./Assets/homebg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    padding-bottom: 30px !important;
+    padding-top: 30px !important;
+    object-fit: contain;
+  }
   .Typewriter__wrapper {
     font-size: 1.4em !important;
     font-weight: 500 !important;
@@ -311,6 +360,17 @@ button:focus {
 }
 
 @media (max-width: 767px) {
+  .home-section {
+    position: relative;
+    z-index: -1;
+    background-image: var(--image-gradient), url(./Assets/homebg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    padding-bottom: 30px !important;
+    padding-top: 30px !important;
+    object-fit: contain;
+  }
   .myAvtar {
     padding-top: 2em !important;
     padding-bottom: 2em !important;
@@ -417,6 +477,17 @@ button:focus {
 }
 
 @media (max-width: 767px) {
+  .home-section {
+    position: relative;
+    z-index: -1;
+    background-image: var(--image-gradient), url(./Assets/homebg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    padding-bottom: 30px !important;
+    padding-top: 30px !important;
+    object-fit: contain;
+  }
   .footer-copywright {
     text-align: center !important;
   }
@@ -515,6 +586,24 @@ button:focus {
   opacity: 0.8 !important;
   border-radius: 0px !important;
 }
+         
+
+
+.btn-primary {
+  background-image: linear-gradient(to right, #4776E6 0%, #8E54E9  51%, #4776E6  100%);
+  margin: 10px;
+  transition: 0.5s;
+  color: white;            
+  border-radius: 5px;
+  display: block;
+}
+
+.btn-primary:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
 
 .btn-primary {
   color: #fff !important;
@@ -555,7 +644,7 @@ button:focus {
   margin: 15px !important;
   padding: 10px !important;
   opacity: 0.93 !important;
-  border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
+  border: 1.7px solid rgba(255, 135, 54, 0.883) !important;
   vertical-align: middle !important;
   text-align: center !important;
   border-radius: 5px !important;
@@ -566,6 +655,17 @@ button:focus {
 }
 
 @media (max-width: 767px) {
+  .home-section {
+    position: relative;
+    z-index: -1;
+    background-image: var(--image-gradient), url(./Assets/homebg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    padding-bottom: 30px !important;
+    padding-top: 30px !important;
+    object-fit: contain;
+  }
   .tech-icons {
     margin: 10px !important;
   }
@@ -574,7 +674,7 @@ button:focus {
 .tech-icons:hover {
   transform: scale(1.05) !important;
   overflow: hidden !important;
-  border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
+  border: 2.2px solid rgb(143, 112, 253) !important;
 }
 .tech-icon-images {
   padding: 20px !important;
@@ -594,6 +694,17 @@ button:focus {
 }
 
 @media (max-width: 767px) {
+  .home-section {
+    position: relative;
+    z-index: -1;
+    background-image: var(--image-gradient), url(./Assets/homebg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    padding-bottom: 30px !important;
+    padding-top: 30px !important;
+    object-fit: contain;
+  }
   .about-img {
     padding-top: 0 !important;
   }
@@ -625,6 +736,17 @@ button:focus {
 }
 
 @media (max-width: 767px) {
+  .home-section {
+    position: relative;
+    z-index: -1;
+    background-image: var(--image-gradient), url(./Assets/homebg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    padding-bottom: 30px !important;
+    padding-top: 30px !important;
+    object-fit: contain;
+  }
   .resume-left {
     padding-right: 15px !important;
     padding-left: 15px !important;

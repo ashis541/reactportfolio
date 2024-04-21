@@ -29,6 +29,8 @@ function App() {
     return () => clearTimeout(timer);
   }, []);
 
+
+
   return (
     <Router>
       <Preloader load={load} />
@@ -37,7 +39,7 @@ function App() {
         <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/project" element={<Projects />} />
+          {/* <Route path="/project" element={<Projects />} /> */}
           <Route path="/about" element={<About />} />
           <Route path="/contactme" element={<Contactme />} />
           <Route path="/resume" element={<Resume />} />

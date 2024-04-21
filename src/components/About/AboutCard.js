@@ -13,7 +13,7 @@ function AboutCard() {
             <br />
             I am currently employed as a software developer at Imprintnext.
             <br />
-            I have completed MCA at <span className="purple">Odisha University Of Agriculture And Technology.</span>
+            I have completed my Master In Computer Application at <span className="purple">Odisha University Of Agriculture And Technology.</span>
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
@@ -23,7 +23,7 @@ function AboutCard() {
               <ImPointRight /> Playing Games
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
+              <ImPointRight /> Cooking
             </li>
             <li className="about-activity">
               <ImPointRight /> Travelling

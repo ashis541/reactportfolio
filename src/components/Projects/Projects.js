@@ -5,7 +5,7 @@ import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
+import eCommerce from "../../Assets/Projects/ecommerce.gif";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 
@@ -23,12 +23,12 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={eCommerce}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="E-commerce Website"
+              description="The eCommerce project is a web-based application that allows users to buy and sell products online. It was built using Java and Hibernate for the backend and HTML, CSS, and JavaScript for the frontend. The project includes features such as user registration and login, product search and browsing, shopping cart management, payment processing, and order tracking. The backend handles data storage and retrieval using Hibernate."
+              ghLink="https://github.com/ashis541/E-commerce.."
+              
             />
           </Col>
 

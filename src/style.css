@@ -719,9 +719,11 @@ color: transparent !important;
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
   color: white !important;
+  width: 100%;
 }
 
 .resume {
+  width: 100%;
   padding-top: 50px;
   padding-bottom: 50px;
   justify-content: center;
